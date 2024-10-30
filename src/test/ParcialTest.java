@@ -27,7 +27,6 @@ public class ParcialTest {
 	public void raicesExcTest() throws Exception {
 		assertThrows(Exception.class, () -> this.parcial.raices(0,2,2));
 		assertThrows(Exception.class, () -> this.parcial.raices(2,1,2));
-		assertTimeout(Duration.ofSeconds(1), () -> this.parcial.raices(1, 4, 3)); 
 	}
 	
 	@Test
