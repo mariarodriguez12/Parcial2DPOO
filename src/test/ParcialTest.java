@@ -21,6 +21,7 @@ public class ParcialTest {
 	public void raicesResTest() throws Exception {
 		assertEquals("0.0,-4.0", this.parcial.raices(1, 4, 3));
 		assertEquals("-1.0,-1.0", this.parcial.raices(1, 2, 1));
+		assertEquals("0.0,-0.5", this.parcial.raices(2, 1, 0));
 	}
 	@Test
 	public void raicesExcTest() throws Exception {
